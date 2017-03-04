@@ -1,0 +1,39 @@
+.box{
+	height: 500px;
+	background-color: #eee;
+	border: #999 solid 1px;
+	padding: 20px;
+}
+#main{
+	border: #999 solid 1px;
+	padding: 20px;
+	background-color: white;
+	margin: 0px 200px 0px 280px;
+
+}
+
+#left{
+	float: left;
+	width: 200px;
+	padding: 20px;
+	background-color: white;
+	border: #999 solid 1px;
+  margin:0 10px;
+}
+#right{
+	float: right;
+	width: 120px;
+	margin:0 10px;
+	padding: 20px;
+	background-color: white;
+	border: #999 solid 1px;
+}
+.logo{
+  width:80px;
+  hight:80px;
+  border:solid 1px #999;
+}
+.word{
+  top:0;
+  float:right;
+}
