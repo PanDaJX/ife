@@ -1,0 +1,160 @@
+	body {
+		margin: 00px;
+		padding: 0px;
+		background-color: lightgray;
+	}
+	
+	header {
+		border: gray;
+		background-color: black;
+		margin: 0;
+		padding: 0;
+	}
+	
+	header h1 {
+		float: left;
+		color: white;
+		padding-top: 5px;
+		padding-left: 20px;
+	}
+	
+	header nav {
+		float: right;
+		padding-top: 10px;
+		padding-right: 20px;
+	}
+	
+	header li {
+		display: inline;
+	}
+	
+	figure {
+		border: black 1px solid;
+		width: 240px;
+		margin: 10px;
+		padding: 5px;
+		text-align: center;
+		margin-left: 30px;
+	}
+	
+	table,
+	th,
+	td {
+		border: darkgray solid;
+		border-width: 1px;
+		text-align: left;
+		border-spacing: 0px;
+	}
+	
+	table {
+		width: 100%;
+	}
+	
+	table th {
+		color: white;
+		background-color: black;
+	}
+	
+	footer {
+		background-color: black;
+		color: white;
+		margin: 0;
+		padding: 10px;
+		text-align: center;
+		clear: both;
+	}
+	
+	aside {
+		margin-bottom: 0px;
+	}
+	
+	aside span {
+		width: 50%;
+	}
+	
+	section {
+		margin: 10px 5px 10px 5px;
+	}
+	
+	.aside-form {
+		margin: 0 auto;
+		width: 700px;
+	}
+	
+	.word {
+		text-align: right;
+		width: 150px;
+		margin: 2px;
+		display: inline-block;
+	}
+	
+	.form-input {
+		width: 500px;
+		margin: 2px;
+		display: inline-block;
+	}
+	
+	.submit {
+		background-color: blue;
+		color: white;
+		border-radius: 8px;
+		padding: 5px;
+		width: 100%;
+		margin: 0;
+	}
+	
+	.picture-size-1 {
+		width: 50%;
+		hight: 50%;
+	}
+	
+	.picture-size-2 {
+		width: 100%;
+		hight: 1000%;
+	}
+	
+.clearfix:after{
+	content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+.clearfix{
+	height:1%;
+}
+	.bdr {
+		border: gray solid thin;
+		margin: 10px;
+		padding: 10px;
+		background-color: white;
+		box-shadow: 2px 2px 1px 1px darkgray;
+	}
+	
+	.list-style {
+		list-style: none;
+	}
+	
+	.libd {
+		border: black solid thin;
+	}
+	.right-table{
+		float: right;
+		width: 500px;
+		top: 0;
+		right: 0;
+		position: absolute;
+
+		margin: auto;
+	}
+	.left-main{
+		float: left;
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-right: 510;
+	}
+	.main{
+		position: relative;
+		margin: auto;
+	}
